@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.113.202 clang-1400.0.16.2)"
+options: "6c9de78698cd3a0dd99ba785df5e42f9e505ff7e7534e81b1841044991a26a29"
+build_start_time: [1658051850, 551414966]
+build_end_time: [1658051854, 993154048]
+inputs:
+  "/Users/ichicoro/Projects/quick-github-navbar-ext/safari/Shared (Extension)/SafariWebExtensionHandler.swift": [1658014185, 800632476]

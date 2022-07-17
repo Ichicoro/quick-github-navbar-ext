@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C5A66C2883816900809C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A66B2883816900809C12 /* AppDelegate.swift */; };
+		58C5A66E2883816900809C12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A66D2883816900809C12 /* SceneDelegate.swift */; };
+		58C5A6712883816900809C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A66F2883816900809C12 /* LaunchScreen.storyboard */; };
+		58C5A6742883816900809C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6722883816900809C12 /* Main.storyboard */; };
+		58C5A67D2883816900809C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A67C2883816900809C12 /* AppDelegate.swift */; };
+		58C5A6802883816900809C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A67E2883816900809C12 /* Main.storyboard */; };
+		58C5A6882883816900809C12 /* GitHub Navbar Quick Access Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58C5A6872883816900809C12 /* GitHub Navbar Quick Access Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58C5A6922883816900809C12 /* GitHub Navbar Quick Access Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58C5A6912883816900809C12 /* GitHub Navbar Quick Access Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58C5A6982883816900809C12 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65B2883816900809C12 /* Main.html */; };
+		58C5A6992883816900809C12 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65B2883816900809C12 /* Main.html */; };
+		58C5A69A2883816900809C12 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65D2883816900809C12 /* Icon.png */; };
+		58C5A69B2883816900809C12 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65D2883816900809C12 /* Icon.png */; };
+		58C5A69C2883816900809C12 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65E2883816900809C12 /* Style.css */; };
+		58C5A69D2883816900809C12 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65E2883816900809C12 /* Style.css */; };
+		58C5A69E2883816900809C12 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65F2883816900809C12 /* Script.js */; };
+		58C5A69F2883816900809C12 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A65F2883816900809C12 /* Script.js */; };
+		58C5A6A02883816900809C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A6602883816900809C12 /* ViewController.swift */; };
+		58C5A6A12883816900809C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A6602883816900809C12 /* ViewController.swift */; };
+		58C5A6A22883816900809C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6612883816900809C12 /* Assets.xcassets */; };
+		58C5A6A32883816900809C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6612883816900809C12 /* Assets.xcassets */; };
+		58C5A6A42883816900809C12 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A6632883816900809C12 /* SafariWebExtensionHandler.swift */; };
+		58C5A6A52883816900809C12 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5A6632883816900809C12 /* SafariWebExtensionHandler.swift */; };
+		58C5A6C22883816A00809C12 /* popup.4249427d.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B72883816A00809C12 /* popup.4249427d.js */; };
+		58C5A6C32883816A00809C12 /* background.b97562ab.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B82883816A00809C12 /* background.b97562ab.js */; };
+		58C5A6C42883816A00809C12 /* options.c076b127.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B92883816A00809C12 /* options.c076b127.css */; };
+		58C5A6C52883816A00809C12 /* content.aeb49248.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BA2883816A00809C12 /* content.aeb49248.css */; };
+		58C5A6C62883816A00809C12 /* popup.c2ce3d77.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BB2883816A00809C12 /* popup.c2ce3d77.css */; };
+		58C5A6C72883816A00809C12 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BC2883816A00809C12 /* manifest.json */; };
+		58C5A6C82883816A00809C12 /* options.83d76de6.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BD2883816A00809C12 /* options.83d76de6.js */; };
+		58C5A6C92883816A00809C12 /* content.e4d1ed4a.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BE2883816A00809C12 /* content.e4d1ed4a.js */; };
+		58C5A6CA2883816A00809C12 /* popup.e701984b.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BF2883816A00809C12 /* popup.e701984b.html */; };
+		58C5A6CB2883816A00809C12 /* options.e683ed2c.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6C02883816A00809C12 /* options.e683ed2c.html */; };
+		58C5A6CC2883816A00809C12 /* icon.51808bae.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6C12883816A00809C12 /* icon.51808bae.png */; };
+		58C5A6CD2883816A00809C12 /* popup.4249427d.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B72883816A00809C12 /* popup.4249427d.js */; };
+		58C5A6CE2883816A00809C12 /* background.b97562ab.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B82883816A00809C12 /* background.b97562ab.js */; };
+		58C5A6CF2883816A00809C12 /* options.c076b127.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6B92883816A00809C12 /* options.c076b127.css */; };
+		58C5A6D02883816A00809C12 /* content.aeb49248.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BA2883816A00809C12 /* content.aeb49248.css */; };
+		58C5A6D12883816A00809C12 /* popup.c2ce3d77.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BB2883816A00809C12 /* popup.c2ce3d77.css */; };
+		58C5A6D22883816A00809C12 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BC2883816A00809C12 /* manifest.json */; };
+		58C5A6D32883816A00809C12 /* options.83d76de6.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BD2883816A00809C12 /* options.83d76de6.js */; };
+		58C5A6D42883816A00809C12 /* content.e4d1ed4a.js in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BE2883816A00809C12 /* content.e4d1ed4a.js */; };
+		58C5A6D52883816A00809C12 /* popup.e701984b.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6BF2883816A00809C12 /* popup.e701984b.html */; };
+		58C5A6D62883816A00809C12 /* options.e683ed2c.html in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6C02883816A00809C12 /* options.e683ed2c.html */; };
+		58C5A6D72883816A00809C12 /* icon.51808bae.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C5A6C12883816A00809C12 /* icon.51808bae.png */; };
+		58DB71D6288389BF00C9DEDB /* content.fb4f56d3.js in Resources */ = {isa = PBXBuildFile; fileRef = 58DB71D5288389BF00C9DEDB /* content.fb4f56d3.js */; };
+		58DB71D7288389BF00C9DEDB /* content.fb4f56d3.js in Resources */ = {isa = PBXBuildFile; fileRef = 58DB71D5288389BF00C9DEDB /* content.fb4f56d3.js */; };
+		58DB71D9288396F100C9DEDB /* content.d432cf6e.css in Resources */ = {isa = PBXBuildFile; fileRef = 58DB71D8288396F100C9DEDB /* content.d432cf6e.css */; };
+		58DB71DA288396F100C9DEDB /* content.d432cf6e.css in Resources */ = {isa = PBXBuildFile; fileRef = 58DB71D8288396F100C9DEDB /* content.d432cf6e.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C5A6892883816900809C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C5A6552883816800809C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C5A6862883816900809C12;
+			remoteInfo = "GitHub Navbar Quick Access Extension (iOS)";
+		};
+		58C5A6932883816900809C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C5A6552883816800809C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C5A6902883816900809C12;
+			remoteInfo = "GitHub Navbar Quick Access Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58C5A6AB2883816900809C12 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58C5A6882883816900809C12 /* GitHub Navbar Quick Access Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6B22883816900809C12 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58C5A6922883816900809C12 /* GitHub Navbar Quick Access Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58C5A65C2883816900809C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		58C5A65D2883816900809C12 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		58C5A65E2883816900809C12 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		58C5A65F2883816900809C12 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		58C5A6602883816900809C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58C5A6612883816900809C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C5A6632883816900809C12 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		58C5A6682883816900809C12 /* GitHub Navbar Quick Access.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Navbar Quick Access.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C5A66B2883816900809C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58C5A66D2883816900809C12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58C5A6702883816900809C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58C5A6732883816900809C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58C5A6752883816900809C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C5A67A2883816900809C12 /* GitHub Navbar Quick Access.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Navbar Quick Access.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C5A67C2883816900809C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58C5A67F2883816900809C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58C5A6812883816900809C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C5A6822883816900809C12 /* GitHub Navbar Quick Access.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub Navbar Quick Access.entitlements"; sourceTree = "<group>"; };
+		58C5A6872883816900809C12 /* GitHub Navbar Quick Access Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHub Navbar Quick Access Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C5A68C2883816900809C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C5A6912883816900809C12 /* GitHub Navbar Quick Access Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHub Navbar Quick Access Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C5A6962883816900809C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C5A6972883816900809C12 /* GitHub Navbar Quick Access.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub Navbar Quick Access.entitlements"; sourceTree = "<group>"; };
+		58C5A6B72883816A00809C12 /* popup.4249427d.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.4249427d.js; path = ../../distribution/popup.4249427d.js; sourceTree = "<group>"; };
+		58C5A6B82883816A00809C12 /* background.b97562ab.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.b97562ab.js; path = ../../distribution/background.b97562ab.js; sourceTree = "<group>"; };
+		58C5A6B92883816A00809C12 /* options.c076b127.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.c076b127.css; path = ../../distribution/options.c076b127.css; sourceTree = "<group>"; };
+		58C5A6BA2883816A00809C12 /* content.aeb49248.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.aeb49248.css; path = ../../distribution/content.aeb49248.css; sourceTree = "<group>"; };
+		58C5A6BB2883816A00809C12 /* popup.c2ce3d77.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.c2ce3d77.css; path = ../../distribution/popup.c2ce3d77.css; sourceTree = "<group>"; };
+		58C5A6BC2883816A00809C12 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../distribution/manifest.json; sourceTree = "<group>"; };
+		58C5A6BD2883816A00809C12 /* options.83d76de6.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.83d76de6.js; path = ../../distribution/options.83d76de6.js; sourceTree = "<group>"; };
+		58C5A6BE2883816A00809C12 /* content.e4d1ed4a.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.e4d1ed4a.js; path = ../../distribution/content.e4d1ed4a.js; sourceTree = "<group>"; };
+		58C5A6BF2883816A00809C12 /* popup.e701984b.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.e701984b.html; path = ../../distribution/popup.e701984b.html; sourceTree = "<group>"; };
+		58C5A6C02883816A00809C12 /* options.e683ed2c.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.e683ed2c.html; path = ../../distribution/options.e683ed2c.html; sourceTree = "<group>"; };
+		58C5A6C12883816A00809C12 /* icon.51808bae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.51808bae.png; path = ../../distribution/icon.51808bae.png; sourceTree = "<group>"; };
+		58DB71D5288389BF00C9DEDB /* content.fb4f56d3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = content.fb4f56d3.js; path = ../../distribution/content.fb4f56d3.js; sourceTree = "<group>"; };
+		58DB71D8288396F100C9DEDB /* content.d432cf6e.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = content.d432cf6e.css; path = ../../distribution/content.d432cf6e.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C5A6652883816900809C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6772883816900809C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6842883816900809C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A68E2883816900809C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58C5A6542883816800809C12 = {
+			isa = PBXGroup;
+			children = (
+				58C5A6592883816800809C12 /* Shared (App) */,
+				58C5A6622883816900809C12 /* Shared (Extension) */,
+				58C5A66A2883816900809C12 /* iOS (App) */,
+				58C5A67B2883816900809C12 /* macOS (App) */,
+				58C5A68B2883816900809C12 /* iOS (Extension) */,
+				58C5A6952883816900809C12 /* macOS (Extension) */,
+				58C5A6692883816900809C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58C5A6592883816800809C12 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A6602883816900809C12 /* ViewController.swift */,
+				58C5A6612883816900809C12 /* Assets.xcassets */,
+				58C5A65A2883816900809C12 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		58C5A65A2883816900809C12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A65B2883816900809C12 /* Main.html */,
+				58C5A65D2883816900809C12 /* Icon.png */,
+				58C5A65E2883816900809C12 /* Style.css */,
+				58C5A65F2883816900809C12 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58C5A6622883816900809C12 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A6B62883816A00809C12 /* Resources */,
+				58C5A6632883816900809C12 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		58C5A6692883816900809C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A6682883816900809C12 /* GitHub Navbar Quick Access.app */,
+				58C5A67A2883816900809C12 /* GitHub Navbar Quick Access.app */,
+				58C5A6872883816900809C12 /* GitHub Navbar Quick Access Extension.appex */,
+				58C5A6912883816900809C12 /* GitHub Navbar Quick Access Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C5A66A2883816900809C12 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A66B2883816900809C12 /* AppDelegate.swift */,
+				58C5A66D2883816900809C12 /* SceneDelegate.swift */,
+				58C5A66F2883816900809C12 /* LaunchScreen.storyboard */,
+				58C5A6722883816900809C12 /* Main.storyboard */,
+				58C5A6752883816900809C12 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		58C5A67B2883816900809C12 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A67C2883816900809C12 /* AppDelegate.swift */,
+				58C5A67E2883816900809C12 /* Main.storyboard */,
+				58C5A6812883816900809C12 /* Info.plist */,
+				58C5A6822883816900809C12 /* GitHub Navbar Quick Access.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		58C5A68B2883816900809C12 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A68C2883816900809C12 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		58C5A6952883816900809C12 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A6962883816900809C12 /* Info.plist */,
+				58C5A6972883816900809C12 /* GitHub Navbar Quick Access.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		58C5A6B62883816A00809C12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58C5A6B72883816A00809C12 /* popup.4249427d.js */,
+				58C5A6B82883816A00809C12 /* background.b97562ab.js */,
+				58C5A6B92883816A00809C12 /* options.c076b127.css */,
+				58DB71D8288396F100C9DEDB /* content.d432cf6e.css */,
+				58C5A6BA2883816A00809C12 /* content.aeb49248.css */,
+				58DB71D5288389BF00C9DEDB /* content.fb4f56d3.js */,
+				58C5A6BB2883816A00809C12 /* popup.c2ce3d77.css */,
+				58C5A6BC2883816A00809C12 /* manifest.json */,
+				58C5A6BD2883816A00809C12 /* options.83d76de6.js */,
+				58C5A6BE2883816A00809C12 /* content.e4d1ed4a.js */,
+				58C5A6BF2883816A00809C12 /* popup.e701984b.html */,
+				58C5A6C02883816A00809C12 /* options.e683ed2c.html */,
+				58C5A6C12883816A00809C12 /* icon.51808bae.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C5A6672883816900809C12 /* GitHub Navbar Quick Access (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C5A6AC2883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access (iOS)" */;
+			buildPhases = (
+				58C5A6642883816900809C12 /* Sources */,
+				58C5A6652883816900809C12 /* Frameworks */,
+				58C5A6662883816900809C12 /* Resources */,
+				58C5A6AB2883816900809C12 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C5A68A2883816900809C12 /* PBXTargetDependency */,
+			);
+			name = "GitHub Navbar Quick Access (iOS)";
+			productName = "GitHub Navbar Quick Access (iOS)";
+			productReference = 58C5A6682883816900809C12 /* GitHub Navbar Quick Access.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58C5A6792883816900809C12 /* extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C5A6B32883816900809C12 /* Build configuration list for PBXNativeTarget "extension" */;
+			buildPhases = (
+				58C5A6762883816900809C12 /* Sources */,
+				58C5A6772883816900809C12 /* Frameworks */,
+				58C5A6782883816900809C12 /* Resources */,
+				58C5A6B22883816900809C12 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C5A6942883816900809C12 /* PBXTargetDependency */,
+			);
+			name = extension;
+			productName = "GitHub Navbar Quick Access (macOS)";
+			productReference = 58C5A67A2883816900809C12 /* GitHub Navbar Quick Access.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58C5A6862883816900809C12 /* GitHub Navbar Quick Access Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C5A6A82883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access Extension (iOS)" */;
+			buildPhases = (
+				58C5A6832883816900809C12 /* Sources */,
+				58C5A6842883816900809C12 /* Frameworks */,
+				58C5A6852883816900809C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Navbar Quick Access Extension (iOS)";
+			productName = "GitHub Navbar Quick Access Extension (iOS)";
+			productReference = 58C5A6872883816900809C12 /* GitHub Navbar Quick Access Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		58C5A6902883816900809C12 /* GitHub Navbar Quick Access Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C5A6AF2883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access Extension (macOS)" */;
+			buildPhases = (
+				58C5A68D2883816900809C12 /* Sources */,
+				58C5A68E2883816900809C12 /* Frameworks */,
+				58C5A68F2883816900809C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Navbar Quick Access Extension (macOS)";
+			productName = "GitHub Navbar Quick Access Extension (macOS)";
+			productReference = 58C5A6912883816900809C12 /* GitHub Navbar Quick Access Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C5A6552883816800809C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					58C5A6672883816900809C12 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					58C5A6792883816900809C12 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					58C5A6862883816900809C12 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					58C5A6902883816900809C12 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 58C5A6582883816800809C12 /* Build configuration list for PBXProject "GitHub Navbar Quick Access" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C5A6542883816800809C12;
+			productRefGroup = 58C5A6692883816900809C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C5A6672883816900809C12 /* GitHub Navbar Quick Access (iOS) */,
+				58C5A6792883816900809C12 /* extension */,
+				58C5A6862883816900809C12 /* GitHub Navbar Quick Access Extension (iOS) */,
+				58C5A6902883816900809C12 /* GitHub Navbar Quick Access Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C5A6662883816900809C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A69A2883816900809C12 /* Icon.png in Resources */,
+				58C5A6712883816900809C12 /* LaunchScreen.storyboard in Resources */,
+				58C5A6982883816900809C12 /* Main.html in Resources */,
+				58C5A69E2883816900809C12 /* Script.js in Resources */,
+				58C5A6A22883816900809C12 /* Assets.xcassets in Resources */,
+				58C5A6742883816900809C12 /* Main.storyboard in Resources */,
+				58C5A69C2883816900809C12 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6782883816900809C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A69B2883816900809C12 /* Icon.png in Resources */,
+				58C5A69D2883816900809C12 /* Style.css in Resources */,
+				58C5A6802883816900809C12 /* Main.storyboard in Resources */,
+				58C5A69F2883816900809C12 /* Script.js in Resources */,
+				58C5A6A32883816900809C12 /* Assets.xcassets in Resources */,
+				58C5A6992883816900809C12 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6852883816900809C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6D62883816A00809C12 /* options.e683ed2c.html in Resources */,
+				58C5A6D32883816A00809C12 /* options.83d76de6.js in Resources */,
+				58C5A6CD2883816A00809C12 /* popup.4249427d.js in Resources */,
+				58C5A6D52883816A00809C12 /* popup.e701984b.html in Resources */,
+				58C5A6CF2883816A00809C12 /* options.c076b127.css in Resources */,
+				58C5A6D42883816A00809C12 /* content.e4d1ed4a.js in Resources */,
+				58C5A6D72883816A00809C12 /* icon.51808bae.png in Resources */,
+				58DB71D9288396F100C9DEDB /* content.d432cf6e.css in Resources */,
+				58C5A6D12883816A00809C12 /* popup.c2ce3d77.css in Resources */,
+				58C5A6CE2883816A00809C12 /* background.b97562ab.js in Resources */,
+				58C5A6D22883816A00809C12 /* manifest.json in Resources */,
+				58C5A6D02883816A00809C12 /* content.aeb49248.css in Resources */,
+				58DB71D6288389BF00C9DEDB /* content.fb4f56d3.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A68F2883816900809C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6CB2883816A00809C12 /* options.e683ed2c.html in Resources */,
+				58C5A6C82883816A00809C12 /* options.83d76de6.js in Resources */,
+				58C5A6C22883816A00809C12 /* popup.4249427d.js in Resources */,
+				58C5A6CA2883816A00809C12 /* popup.e701984b.html in Resources */,
+				58C5A6C42883816A00809C12 /* options.c076b127.css in Resources */,
+				58C5A6C92883816A00809C12 /* content.e4d1ed4a.js in Resources */,
+				58C5A6CC2883816A00809C12 /* icon.51808bae.png in Resources */,
+				58DB71DA288396F100C9DEDB /* content.d432cf6e.css in Resources */,
+				58C5A6C62883816A00809C12 /* popup.c2ce3d77.css in Resources */,
+				58C5A6C32883816A00809C12 /* background.b97562ab.js in Resources */,
+				58C5A6C72883816A00809C12 /* manifest.json in Resources */,
+				58C5A6C52883816A00809C12 /* content.aeb49248.css in Resources */,
+				58DB71D7288389BF00C9DEDB /* content.fb4f56d3.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C5A6642883816900809C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6A02883816900809C12 /* ViewController.swift in Sources */,
+				58C5A66C2883816900809C12 /* AppDelegate.swift in Sources */,
+				58C5A66E2883816900809C12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6762883816900809C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6A12883816900809C12 /* ViewController.swift in Sources */,
+				58C5A67D2883816900809C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A6832883816900809C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6A42883816900809C12 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5A68D2883816900809C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C5A6A52883816900809C12 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C5A68A2883816900809C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C5A6862883816900809C12 /* GitHub Navbar Quick Access Extension (iOS) */;
+			targetProxy = 58C5A6892883816900809C12 /* PBXContainerItemProxy */;
+		};
+		58C5A6942883816900809C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C5A6902883816900809C12 /* GitHub Navbar Quick Access Extension (macOS) */;
+			targetProxy = 58C5A6932883816900809C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58C5A65B2883816900809C12 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C5A65C2883816900809C12 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		58C5A66F2883816900809C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C5A6702883816900809C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		58C5A6722883816900809C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C5A6732883816900809C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58C5A67E2883816900809C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C5A67F2883816900809C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58C5A6A62883816900809C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58C5A6A72883816900809C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58C5A6A92883816900809C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access.Extension";
+				PRODUCT_NAME = "GitHub Navbar Quick Access Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C5A6AA2883816900809C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access.Extension";
+				PRODUCT_NAME = "GitHub Navbar Quick Access Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C5A6AD2883816900809C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access";
+				PRODUCT_NAME = "GitHub Navbar Quick Access";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C5A6AE2883816900809C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access";
+				PRODUCT_NAME = "GitHub Navbar Quick Access";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C5A6B02883816900809C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GitHub Navbar Quick Access.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access.Extension";
+				PRODUCT_NAME = "GitHub Navbar Quick Access Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58C5A6B12883816900809C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GitHub Navbar Quick Access.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access.Extension";
+				PRODUCT_NAME = "GitHub Navbar Quick Access Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58C5A6B42883816900809C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GitHub Navbar Quick Access.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access";
+				PRODUCT_NAME = "GitHub Navbar Quick Access";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58C5A6B52883816900809C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GitHub Navbar Quick Access.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQ3DSUFY3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Navbar Quick Access";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.GitHub-Navbar-Quick-Access";
+				PRODUCT_NAME = "GitHub Navbar Quick Access";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C5A6582883816800809C12 /* Build configuration list for PBXProject "GitHub Navbar Quick Access" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5A6A62883816900809C12 /* Debug */,
+				58C5A6A72883816900809C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C5A6A82883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5A6A92883816900809C12 /* Debug */,
+				58C5A6AA2883816900809C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C5A6AC2883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5A6AD2883816900809C12 /* Debug */,
+				58C5A6AE2883816900809C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C5A6AF2883816900809C12 /* Build configuration list for PBXNativeTarget "GitHub Navbar Quick Access Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5A6B02883816900809C12 /* Debug */,
+				58C5A6B12883816900809C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C5A6B32883816900809C12 /* Build configuration list for PBXNativeTarget "extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C5A6B42883816900809C12 /* Debug */,
+				58C5A6B52883816900809C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58C5A6552883816800809C12 /* Project object */;
+}

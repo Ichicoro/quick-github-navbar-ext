@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+	margin: 0;
+	background-color: rgb(55, 49, 63);
+}
+
+.popup {
+	width: 400px;
+	min-height: 450px;
+	height: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	background-color: rgb(151, 61, 74);;
+	color: rgb(211, 210, 207);
+
+	border-bottom: 2px solid rgba(0,0,0, 0.15);
+
+	margin-bottom: 1rem;
+}

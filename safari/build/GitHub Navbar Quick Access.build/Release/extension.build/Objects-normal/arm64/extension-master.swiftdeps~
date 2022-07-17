@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.113.202 clang-1400.0.16.2)"
+options: "330dbeb631585b82cc4f05cbd5849aff8fd1ea168dc44ba223b6b83fa0fee3df"
+build_start_time: [1658051854, 356353998]
+build_end_time: [1658051854, 375849962]
+inputs:
+  "/Users/ichicoro/Projects/quick-github-navbar-ext/safari/Shared (App)/ViewController.swift": !dirty [1658014185, 64448833]
+  "/Users/ichicoro/Projects/quick-github-navbar-ext/safari/macOS (App)/AppDelegate.swift": !dirty [1658014185, 880184650]

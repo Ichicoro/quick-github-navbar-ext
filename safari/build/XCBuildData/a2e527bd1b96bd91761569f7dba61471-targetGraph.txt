@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+GitHub Navbar Quick Access Extension (macOS) in GitHub Navbar Quick Access, no dependencies
+extension in GitHub Navbar Quick Access, depends on:
+GitHub Navbar Quick Access Extension (macOS) in GitHub Navbar Quick Access (explicit)

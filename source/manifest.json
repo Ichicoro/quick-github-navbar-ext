@@ -1,13 +1,13 @@
 {
-	"name": "Awesome Extension",
-	"version": "0.0.0",
-	"description": "An awesome new browser extension",
+	"name": "GitHub Navbar Quick Access",
+	"version": "0.0.1",
+	"description": "idk it just makes it easier to get to repos",
 	"homepage_url": "https://github.com/fregante/browser-extension-template",
 	"manifest_version": 3,
 	"minimum_chrome_version": "100",
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "awesome-extension@notlmn.github.io",
+			"id": "quick-github-navbar@marte.dev",
 			"strict_min_version": "100.0"
 		}
 	},
@@ -22,12 +22,15 @@
 	],
 	"content_scripts": [
 		{
-			"matches": [ "https://github.com/fregante/browser-extension-template/*" ],
-			"js": [ "content.js" ],
+			"matches": [ "https://github.com/*" ],
+			"js": [ "content.tsx" ],
 			"css": [ "content.css" ],
 			"run_at": "document_end"
 		}
 	],
+	"action": {
+		"default_popup": "popup/index.html"
+	},
 	"options_ui": {
 		"browser_style": true,
 		"page": "options.html"
