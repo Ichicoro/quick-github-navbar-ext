@@ -6,14 +6,16 @@ import Injected from "./injected"
 async function init() {
 	const options = await optionsStorage.getAll()
 
-	const wideElement = document.querySelector(".Header > .Header-item.Header-item--full") //.width-full
+	const header = document.querySelector("header.Header")
+	const insertBeforeEl = header?.querySelector("header.Header > *:nth-last-child(3)")
+	// const wideElement = header?.querySelector(".Header > .Header-item.Header-item--full") //.width-full
 
 	document.querySelector("#inject_me_ghqa")?.remove()
 	const spanContainer = document.createElement("span")
 	spanContainer.id = "inject_me_ghqa"
 	spanContainer.classList.add("mr-md-3")
 
-	wideElement?.parentElement?.insertBefore(spanContainer, wideElement?.nextSibling!)
+	header?.insertBefore(spanContainer, insertBeforeEl!)
 
 	render(<Injected />, spanContainer);
 

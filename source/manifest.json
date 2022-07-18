@@ -15,7 +15,9 @@
 		"128": "icon.png"
 	},
 	"permissions": [
-		"storage"
+		"storage",
+		"webNavigation",
+    "tabs"
 	],
 	"host_permissions": [
 		"https://github.com/*"

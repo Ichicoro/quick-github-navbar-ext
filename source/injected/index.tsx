@@ -1,7 +1,8 @@
+import { PinIcon } from "@primer/octicons-react"
 import React, { h, render, Ref } from "preact"
 import { useRef, useState } from "preact/hooks"
-import { usePopper } from "react-popper"
 import { ArrowContainer, Popover } from "react-tiny-popover"
+import PopoverContents from "./PopoverContents"
 
 import "./style.scss"
 
@@ -10,37 +11,35 @@ const Injected: React.FunctionComponent = () => {
 	const clickMeButtonRef = useRef<HTMLButtonElement | undefined>();
 
 	return <span className="position-relative">
-
-
 		<Popover
 			isOpen={isPopoverOpen}
 			positions={["bottom"]}
-			padding={10}
-			onClickOutside={() => setIsPopoverOpen(false)}
-			ref={clickMeButtonRef as Ref<HTMLElement>} // if you'd like a ref to your popover's child, you can grab one here
+			padding={5}
+			onClickOutside={() => setIsPopoverOpen(!isPopoverOpen)}
+			ref={clickMeButtonRef as Ref<HTMLElement>}
+			containerStyle={{ zIndex: "9999" }}
 			content={({ position, childRect, popoverRect }) => (
-				<ArrowContainer // if you'd like an arrow, you can import the ArrowContainer!
+				<ArrowContainer
 					position={position}
 					childRect={childRect}
 					popoverRect={popoverRect}
 					arrowColor={'white'}
-					arrowSize={10}
-					arrowStyle={{ opacity: 1 }}
+					arrowSize={9}
+					arrowStyle={{ opacity: 1, transform: "translateY(1px)" }}
 					className='popover-arrow-container'
 					arrowClassName='popover-arrow'
 				>
-					<div
-						onClick={() => setIsPopoverOpen(!isPopoverOpen)}
-						className="qgn-popover"
-					>
-						Hi! I'm popover content. Here's my position: {position}.
+					<div className="qgnpopover">
+						<PopoverContents />
 					</div>
 				</ArrowContainer>
 			)}
 		>
-			<button type="button" onClick={() => {
-				setIsPopoverOpen(true)
-			}}>testerino</button>
+			<span className="Header-link cursor-pointer qng__navbar-button" onClick={() => {
+				setIsPopoverOpen(!isPopoverOpen)
+			}}>
+				<PinIcon /><span class="dropdown-caret"></span>
+			</span>
 		</Popover>
 	</span>
 }

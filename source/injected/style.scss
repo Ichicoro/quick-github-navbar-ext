@@ -1,7 +1,55 @@
-.qgn-popover {
+.qng__navbar-button {
+	margin-right: 2px;
+}
+
+.qgnpopover {
 	padding: .5rem;
-	border: 2px solid rgb(208, 215, 222);
+	border: 1px solid rgb(208, 215, 222);
 	opacity: 1;
-	background-color: white;
+	//background-color: white;
 	border-radius: 8px;
+	box-shadow: rgba(140, 149, 159, 0.2) 0px 8px 24px 0px;
+}
+
+.qgnpopover__content {
+	& > *:not(:first-child) {
+		padding-top: .4rem;
+		margin-top: .5rem;
+		border-top: 1px solid rgb(208, 215, 222);
+		width: 100%;
+
+    @media (prefers-color-scheme: dark) {
+      & {
+        border-top: 1px solid rgba(255,255,255,0.2);
+      }
+    }
+	}
+
+	& > div > div:first-child {
+		& code {
+			font-size: 12px;
+		}
+
+		& a {
+			text-decoration: none;
+		}
+	}
+}
+
+.qgnpopover__button-row {
+	display: flex;
+	gap: .25rem;
+}
+
+.qgnbutton {
+	padding: initial 8px;
+	border: none;
+	border-radius: 6px;
+	background-color: transparent;
+	transition: .12s ease-out;
+	font-size: 14px;
+
+	&:hover {
+		background-color: rgba(208, 215, 222, 0.32);
+	}
 }

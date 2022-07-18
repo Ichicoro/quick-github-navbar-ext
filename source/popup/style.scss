@@ -1,25 +1,62 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-	margin: 0;
-	background-color: rgb(55, 49, 63);
+:root {
+  color-scheme: light dark;
 }
 
+a {
+  color: rgb(88, 166, 255) !important;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  // background-color: rgb(55, 49, 63);
+  outline: none;
+  background-color: transparent;
+}
+
+*:focus { outline: none; }
+
 .popup {
-	width: 400px;
-	min-height: 450px;
-	height: 100%;
+  width: 400px;
+  // min-height: 450px;
+  height: 100%;
 }
 
 .header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 44px;
-	background-color: rgb(151, 61, 74);;
-	color: rgb(211, 210, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	border-bottom: 2px solid rgba(0,0,0, 0.15);
+  height: 44px;
+  background-color: transparent; // rgba(247, 246, 244);
+  border-bottom: 1px solid #d0d7de;
 
-	margin-bottom: 1rem;
+  @media (prefers-color-scheme: dark) {
+    & {
+      color: white;
+      // background-color: #1a1a1a;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+  }
+}
+
+.header-old {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background-color: rgb(151, 61, 74);;
+  color: rgb(211, 210, 207);
+
+  border-bottom: 2px solid rgba(0,0,0, 0.15);
+}
+
+.popup__background {
+  @media (prefers-color-scheme: dark) {
+    & {
+      background-color: transparent;
+    }
+  }
 }
